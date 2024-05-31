@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ninja Naruto", sans-serif;
+}
+
+#backgroundImage {
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://www-animeherald-com.exactdn.com/wp-content/uploads/2023/03/N4.jpg?strip=all&lossy=1&ssl=1");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 228, 196, 0.3);
+}
+
+#topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(232, 110, 56);
+}
+
+#topnav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#topnav li:last-child {
+  border-left: 1px solid #bbb;
+}
+
+#topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#topnav .active {
+  background-color: rgb(44, 40, 40);
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#loginicon {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+  height: 140px;
+  position: absolute;
+  top: -100px;
+  left: 180px;
+}
+.Signinbox {
+  position: relative;
+  top: 150px;
+  box-align: center;
+  margin: auto;
+  max-width: 500px;
+  background-color: rgb(232, 110, 56);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+  padding: 5%;
+  border-radius: 5%;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 70px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px;
+  color: #111;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+}
+
+.check {
+  margin-bottom: 5px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: bisque;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+}
+
+#kunai1 {
+  transition-duration: 0.5s;
+  width: 150px;
+}
+#kunai1:hover {
+  transform: translateX(50px);
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="submit"]:hover {
+  background-color: burlywood;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+#signinBottom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10%;
+}
+#forgotPassword:hover {
+  color: bisque;
+}
+#SignupBottom:hover {
+  color: rgb(228, 174, 107);
+  text-decoration: none;
+}
+#SignupBottom {
+  color: white;
+  text-decoration: none;
+}
+
+.Footer {
+  position: absolute;
+  bottom: -450px;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  background-color: rgb(232, 110, 56);
+  padding: 30px;
+}
