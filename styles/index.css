@@ -39,7 +39,7 @@ html {
 }
 
 #topnav li:last-child {
-  border-right: none;
+  border-left: 1px solid #bbb;
 }
 
 #topnav li a {
@@ -143,6 +143,7 @@ h1 {
   /* margin-bottom: 0.5em; */
   margin: 0.5em;
   text-align: justify;
+  line-height: 1.5;
 }
 a[type="submit"] {
   margin-top: 10px;

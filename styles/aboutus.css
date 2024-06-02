@@ -39,7 +39,7 @@ html {
 }
 
 #topnav li:last-child {
-  border-right: none;
+  border-left: 1px solid #bbb;
 }
 
 #topnav li a {
@@ -79,10 +79,18 @@ h1 {
   margin: 50px;
   padding: 20px;
 }
+article {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px 10px;
+}
 
 .ourteambox {
   display: flex;
   justify-content: center;
+  line-height: 1.5;
 }
 .Footer {
   width: 100%;
