@@ -2,6 +2,9 @@
 
 This project is a simple website with the idea of ​​creating a platform for trade in mangas (Japanese comics). It aims to connect manga lovers to sustainably give new life to their manga collections and start new ones.
 
+**Github link:**
+https://github.com/claytonrreis/SBA307
+
 **Project Setup:**
 This initial HTML project uses basic HTML and CSS.
 No additional setup is required beyond a web browser.
